@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name ="TDD-Account">
+	 <target name="clean">
+			<delete dir="build"/>
+	</target>
+	
+	<target name = "compile" depends="clean">
+		 <mkdir dir="build"/>
+		<mkdir dir="TestReports"/>
+		<javac srcdir="src"
+			destdir="build" >
+		<classpath>
+		<pathelement location ="lib/junit.jar"/>
+		</classpath>
+		</javac>
+	</target>
+	
+	<target name="RunTest" depends="compile">
+		
+		<junit 
+		haltonfailure="true" 
+		includeantruntime="true"
+		showoutput="true"
+		printsummary="yes" >
+			<classpath>
+			
+			<pathelement location ="lib/junit.jar"/>
+			<pathelement location ="lib/org.hamcrest.core_1.3.0.v201303031735.jar"/>
+			<pathelement location="build"/>
+			</classpath>
+			
+			
+			<batchtest todir = "TestReports">
+			<formatter type="xml"/>
+				<fileset dir="build">
+				<include name="/test/bank/*.*"/>
+				</fileset>
+			</batchtest>
+			
+			
+			
+		</junit>
+		
+		<!--<test name="test.bank.Test_SavingAccount" 
+			
+		outfile="testResults" 
+		todir="TestReports">
+		</test>-->
+		</target>
+	
+	
+	<target name="report" depends="RunTest">
+		<junitreport todir="TestReports">
+		<fileset dir="TestReports" >
+    	<include name="*.xml"/>
+   	 	</fileset>
+		<report format="frames" todir="TestReports"/>
+		</junitreport>
+	</target>
+	
+	
+	
+	<target name="BuildJar" depends="report">
+	<echo message="Running the Jar Task...!"/>
+	<jar destfile="build/app.jar"
+		basedir="build"
+		includes="com/server/*.class"/>
+	</target>
+	<!--<target name="jar">
+	        <mkdir dir="build/jar"/>
+	        <jar destfile="build/jar/BankAccounts.jar" basedir="build/classes">
+	            <manifest>
+	                <attribute name="Main-Class" value="test.servlet.Hello"/>
+	            </manifest>
+	        </jar>
+	    </target>
+	  <target name="run">
+	        <java jar="build/jar/BankAccounts.jar" fork="true"/>
+	    </target>-->
+	</project>
