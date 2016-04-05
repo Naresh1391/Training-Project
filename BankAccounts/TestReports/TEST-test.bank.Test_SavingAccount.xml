@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="PC254205" name="test.bank.Test_SavingAccount" skipped="0" tests="3" time="0.05" timestamp="2016-04-04T11:25:04">
+<testsuite errors="0" failures="0" hostname="PC254205" name="test.bank.Test_SavingAccount" skipped="0" tests="3" time="0.171" timestamp="2016-04-05T04:24:23">
   <properties>
     <property name="ant.project.invoked-targets" value="BuildJar" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
@@ -18,10 +18,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="sun.os.patch.level" value="Service Pack 1" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
-    <property name="user.dir" value="C:\Eclipse_workspace\BankAccounts" />
+    <property name="user.dir" value="D:\MyGitCode\BankAccounts" />
     <property name="java.runtime.version" value="1.8.0_25-b18" />
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
-    <property name="basedir" value="C:\Eclipse_workspace\BankAccounts" />
+    <property name="basedir" value="D:\MyGitCode\BankAccounts" />
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed" />
     <property name="os.arch" value="x86" />
     <property name="java.io.tmpdir" value="C:\Users\393476\AppData\Local\Temp\" />
@@ -38,7 +38,7 @@
     <property name="java.class.version" value="52.0" />
     <property name="sun.management.compiler" value="HotSpot Client Compiler" />
     <property name="os.version" value="6.1" />
-    <property name="ant.file" value="C:\Eclipse_workspace\BankAccounts\build.xml" />
+    <property name="ant.file" value="D:\MyGitCode\BankAccounts\build.xml" />
     <property name="user.home" value="C:\Users\393476" />
     <property name="user.timezone" value="Asia/Calcutta" />
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
@@ -46,11 +46,11 @@
     <property name="file.encoding" value="UTF-8" />
     <property name="java.class.path" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-antlr.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bcel.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-bsf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-log4j.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-oro.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-regexp.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-resolver.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-apache-xalan2.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-logging.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-commons-net.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jai.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-javamail.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jdepend.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jmf.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-jsch.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-netrexx.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-swing.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-testutil.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;D:\eclipse\configuration\org.eclipse.osgi\58\0\.cp\lib\antdebug.jar;D:\eclipse\configuration\org.eclipse.osgi\58\0\.cp\lib\remote.jar;D:\eclipse\configuration\org.eclipse.osgi\59\0\.cp\lib\remoteAnt.jar;C:\Program Files\Java\jdk1.8.0_25\lib\tools.jar;D:\eclipse\plugins\org.eclipse.swt.win32.win32.x86_3.104.0.v20150528-0211.jar" />
     <property name="user.name" value="393476" />
-    <property name="ant.file.TDD-Account" value="C:\Eclipse_workspace\BankAccounts\build.xml" />
+    <property name="ant.file.TDD-Account" value="D:\MyGitCode\BankAccounts\build.xml" />
     <property name="java.vm.specification.version" value="1.8" />
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre" />
     <property name="sun.arch.data.model" value="32" />
-    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -v -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1459769102645 -Declipse.connect.port=50450 -Dant.home=D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\Eclipse_workspace\BankAccounts\build.xml BuildJar" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -v -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1459830253715 -Declipse.connect.port=53041 -Dant.home=D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile D:\MyGitCode\BankAccounts\build.xml BuildJar" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
     <property name="user.language" value="en" />
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
@@ -67,9 +67,10 @@
     <property name="sun.desktop" value="windows" />
     <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
   </properties>
-  <testcase classname="test.bank.Test_SavingAccount" name="chckSavingAccountAvailable" time="0.006" />
+  <testcase classname="test.bank.Test_SavingAccount" name="chckSavingAccountAvailable" time="0.028" />
   <testcase classname="test.bank.Test_SavingAccount" name="checkInitialBalance" time="0.0" />
-  <testcase classname="test.bank.Test_SavingAccount" name="testAccountDeposit" time="0.001" />
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="test.bank.Test_SavingAccount" name="testAccountDeposit" time="0.0" />
+  <system-out><![CDATA[change to commit
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
